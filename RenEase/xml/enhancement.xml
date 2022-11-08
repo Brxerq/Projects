@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&amp;amp;display=swap"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  </head>
+<body style="background-color:rgba(0, 0, 0, 0.5);">
+  <section class="header">
+    <nav>
+         <a href="index.html"><img src="images/logo.png" alt="images/logo.png"/></a>
+         <div class="nav-links" id="navLinks">
+          <i class="fa fa-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+              <div class="dropdown">
+                <button  class="dropbtn" id="vehicleavail"  style="float:right" onclick="myFunction()" >VEHICLE AVAILABLE
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="Budget.html">BUDGET</a>
+                <a href="Standard.html">STANDARD</a>
+                <a href="Luxury.html">LUXURY</a>
+                <a href="SUV.html">SUV</a>
+                </div>
+              </div> 
+            </li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="enquiry.html">ENQUIRY</a></li>
+            <li>
+              <div class="dropdown">
+              <button onclick="drop()" class="dropbtn">ENHANCEMENTS
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div id="myDropdown2" class="dropdown-content">
+                  <a href="enhancement.html">Enhancement 1</a>
+                  <a href="enhancement2.html">Enhancement 2</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="disclaimer.html">DISCLAIMER</a></li>
+          </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+       <h1>ENHANCEMENT</h1>
+    </div>
+    </section>
+<!--Enhancements 1-->
+<article>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/1.png" alt="images/1.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>Hover effect when you take your pointer to the information(container).</p>
+      <div><a href="index.html#1" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/2.png" alt="images/2.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>When you take your pointer on the image the color changes to yellow and you can click it to move to the page.</p>
+      <div><a href="index.html#2" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/3.png" alt="images/3.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>Picture banner with blur effect to make website look more appealing.</p>
+      <div><a href="index.html#3" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/4.png" alt="images/4.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>Button when you hover your pointer over it the color changes.</p>
+      <div><a href="index.html#4" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/6.png" alt="images/6.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>The gradient color effect for the background with yellow and black color scheme.</p>
+      <div><a href="budget.html#6" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/7.png" alt="images/7.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>Google map location for the address.</p>
+      <div><a href="about.html#7" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/8.png" alt="images/8.png"/>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Enhancement</h1>
+      <p>The border for the form and when you are on specific firld the background colour of the field changes to light yellow.</p>
+      <div><a href="enquiry.html#8" class="hero-btn2">View Enhancement</a></div>
+    </div>
+  </div>
+
+</article>
+
+  <!-- Footer -->
+<footer class="footerr">
+  <h4>About Us</h4>
+  <p>You can now submit an email by simply filling a description form requiring your contact details, and our team will get back to you.</p>
+  <div class="icon">
+    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by <a href="mailto:101231186@students.swinburne.edu.my">101231186@students.swinburne.edu.my</a></p>
+  <a href="acknowledgement.html" class="hero-btn2"><b>ACKNOWLEDGEMENTS</b></a>
+</footer>
+<script src="script.js"></script>
+<script src="enhancement2.js"></script>
+</body>
+</html>
