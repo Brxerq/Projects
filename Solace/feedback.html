@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--Some information is take from https://www.w3schools.com-->
+<!-- It is icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+
+    <title>SOLACE</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<!-- Some information is taken form https://www.w3schools.com -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body class="text">
+    <header>
+       
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <div class="main">
+                    <div class="logo">
+                        <img src="images/logo.ico">
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="new arrivals.html"><span class="fa fa-info fa-lg">New Arrivals</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="top sellers.html"><span class="fa fa-list fa-lg"></span>Top Sellers</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span>Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>
+                <marquee behavior="scroll" direction="left">THE WORLD IS AT YOUR FEET, SO MAKE SURE YOU ARE WEARING GREAT SHOES. </marquee>
+            </h1>
+        </div>
+    </header>
+        <div class="row row-content jumbotron text2">
+           <div>
+              <h2>Location Information</h2>
+           </div>
+            <div>                
+                   <h3>Our Address</h3>
+                    <address style="font-size: 150%">
+		              Jalan Simpang Tiga<br>
+		              93350 Kuching<br>
+		              Sarawak Malaysia<br>
+		              <i class="fa fa-phone"></i>:+60 82 260678<br>
+		              <i class="fa fa-fax"></i>:+60 82 260123<br>
+		              <i class="fa fa-envelope"></i>:
+                        <a href="https://www.swinburne.edu.my">abc@swinburne.edu.my</a>
+		            </address>
+            </div>
+            <div>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-info" href="https://www.skype.com"><i class="fa fa-skype"></i> Skype</a>
+                    <a role="button" class="btn btn-success" href="mailto:Hassaanpro7@gmail.com"><i class="fa fa-envelope-o"></i> Email</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content text1">
+          
+            <form class="row row-content">
+                 <fieldset>
+                  <legend><h3>Send us your Feedback</h3></legend>
+                  <label for="fname">First name:</label>
+                  <input type="text" class="form-control textbox" id="firstname" name="firstname" placeholder="First Name"><br><br>
+                  <label for="lname">Last name:</label>
+                  <input type="text" class="form-control textbox" id="lastname" name="lastname" placeholder="Last Name"><br><br>
+        <div>
+                    <label for="Gender" >Gender</label>
+                        <select class="form-control textbox">
+                            <option>Other</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                       </select>
+        </div>          
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control textbox" id="emailid" name="emailid" placeholder="Email"><br><br>
+                  <label for="birthday">Birthday:</label>
+                  <input type="date" id="birthday" name="birthday"><br><br>
+        <div class="form-check">
+                <input type="checkbox" class="form-check-input " name="approve" id="approve" value="">
+                    <label class="form-check-label" for="approve">
+                        <strong>May we contact you?</strong>
+                    </label>                   
+        </div>
+                    <label for="feedback" class="row-header text"> <h1>Your Feedback</h1> </label>
+                                <div class="row-content ">
+                                        <textarea class="form-control textbox1" wrap="soft" id="feedback" name="feedback" rows="12">
+                                        </textarea>
+                                        <button type="submit" class="btn btn-primary textbox2">Send Feedback</button>
+                                </div>
+                 </fieldset>
+            </form>
+                    <div class="row row-content">
+                        <h3>Feedback About the Website</h3>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="Full Name" >Full Name</label>
+                                </td>   
+                                <td>   
+                                    <div>
+                                    <input type="text" class="form-control textbox" id="Full Name" name="Full Name" placeholder="Full Name">
+                                    </div>
+                                </td>                                                                
+                            </tr>
+                            <tr>    
+                                <td>
+                                    <label>1) Did you like the Website?</label>
+                                </td>    
+                                <td>
+                                    <div>
+                                    <input type="radio" name="Decision" value="Yes"> Yes <input type="radio" name="Decision" value="No"> No <br>
+                                    </div>
+                                </td>                                                      
+                            </tr>    
+                            <tr>
+                                <td>
+                                    <label>2) Rate the website design</label>
+                                </td>
+                                <td>    
+                                    <div>
+                                    <input type="radio" name="Decision" value="1"> 1 <input type="radio" name="Decision" value="2"> 2 <input type="radio" name="Decision" value="3"> 3 <input type="radio" name="Decision" value="4"> 4 <input type="radio" name="Decision" value="5"> 5 <br>
+                                    </div>
+                                </td> 
+                            </tr>
+                            <tr>    
+                                <td>
+                                    <label>3) Did you Like the Color scheme used in the website?</label>
+                                </td>
+                                <td>    
+                                    <div>
+                                    <input type="radio" name="Decision" value="Yes"> Yes <input type="radio" name="Decision" value="No"> No <br>
+                                    </div>
+                                </td> 
+                            </tr>
+                            <tr>    
+                                <td>
+                                    <label>4) Did homepage attract your attention?</label>
+                                </td>   
+                                <td>    
+                                    <div>
+                                    
+                                    <input type="radio" name="Decision" value="Yes"> Yes <input type="radio" name="Decision" value="No"> No <br>
+                                    </div>
+                                </td> 
+                            </tr>
+                            <tr>    
+                                <td>
+                                    <label for="feedback" class="row-header text">5) Recommendations to enhance my website:</label>
+                                </td>
+                                <td>    
+                                        <textarea class="form-control textbox1" wrap="soft" id="feedback" name="feedback" rows="10%">
+                                        </textarea>
+                                        <button type="submit" class="btn btn-primary textbox1">Submit</button>                                  
+                                </td>
+                            </tr>   
+                        </table>                    
+                    </div>                                        
+        </form>
+            
+       </div>
+    </div>
+
+    <footer class="footer">
+           <div class="row row-header text1">             
+                <div>
+                    <p>© <a href="./aboutus.html">Syed Muhammad Hassaan</a> | Last updated: November 22, 2020 SOLACE</p>
+                </div>
+           </div>
+
+    </footer>
+</body>
+
+</html>
