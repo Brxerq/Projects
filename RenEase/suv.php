@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>RENEASE</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body style="background-color:rgba(0, 0, 0, 0.5);">
+  <section class="header">
+    <nav>
+      <a href="index.php"><img src="images/logo.png" alt="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+       <i class="fa fa-window-close" onclick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li>
+           <div class="dropdown">
+             <button  class="dropbtn" id="vehicleavail"  style="float:right" onclick="myFunction()" >VEHICLE AVAILABLE
+               <i class="fa fa-caret-down"></i>
+             </button>
+             <div id="myDropdown" class="dropdown-content">
+             <a href="Budget.php">BUDGET</a>
+             <a href="Standard.php">STANDARD</a>
+             <a href="Luxury.php">LUXURY</a>
+             <a href="SUV.php">SUV</a>
+             </div>
+           </div> 
+         </li>
+         <li><a href="about.php">ABOUT</a></li>
+         <li><a href="enquiry.php">ENQUIRY</a></li>
+         <li>
+           <div class="dropdown">
+           <button onclick="drop()" class="dropbtn">ENHANCEMENTS
+             <i class="fa fa-caret-down"></i>
+           </button>
+             <div id="myDropdown2" class="dropdown-content">
+               <a href="enhancement.php">Enhancement 1</a>
+               <a href="enhancement2.php">Enhancement 2</a>
+             </div>
+         </div>
+         </li>
+         <li><a href="disclaimer.php">DISCLAIMER</a></li>
+       </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+    <div class="text-box">
+       <h1>SUV</h1>
+    </div>
+    </section>
+<!--Aboutrenrase-->
+<article>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/rav4.png" alt="rav4">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2020 Model</p>
+      <p><i class="fa fa-money"></i> RM130/day</p>
+      <div><a href="https://www.youtube.com/watch?v=1ErNnGk2LKs" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Toyota RAV4</h1><br><br><br>
+      <p>The Toyota RAV4 is a tiny crossover SUV (sport utility vehicle) manufactured by Toyota, a Japanese automaker.<br> This was the first compact crossover SUV, debuting in Japan and Europe in 1994 and North America in 1995, with a January 1996 launch.</p>
+      <a class="hero-btn2" onclick="storeitem('Toyota RAV4')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/cherokee.png" alt="Jeep">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2022 Model</p>
+      <p><i class="fa fa-money"></i> RM140/day</p>
+      <div><a href="https://www.youtube.com/watch?v=FucFL3G7VXY" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Jeep Grand Cherokee</h1><br><br><br>
+      <p>The Jeep Grand Cherokee is a line of mid-size SUVs manufactured by Jeep in the United States.<br> The Jeep Grand Cherokee has always been built on a unibody chassis, unlike several other SUVs built on a body-on-frame chassis.</p>
+      <a class="hero-btn2" onclick="storeitem('Jeep Grand Cherokee')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/cx8.png" alt="cx8">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2021 Model</p>
+      <p><i class="fa fa-money"></i> RM140/day</p>
+      <div><a href="https://www.youtube.com/watch?v=x9I1zWW2reE" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Mazda CX-8</h1><br><br><br>
+      <p>Mazda has been producing the Mazda CX-8, a mid-size crossover SUV, since the end of 2017.<br> The CX-5 is available in a seven-seater variant. The Mazda CX-8 was first launched on September 14, 2017, and it is the company's flagship SUV in Japan, as the larger CX-9 is not marketed there.<br> The CX-8 is accessible outside of Japan in China, Oceania, and Southeast Asia.</p>
+      <a class="hero-btn2" onclick="storeitem('Mazda CX-8')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/prado.png" alt="prado">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2018 Model</p>
+      <p><i class="fa fa-money"></i> RM130/day</p>
+      <div><a href="https://www.youtube.com/watch?v=XFfUEF5YKWI" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Toyota Land Cruiser Prado</h1><br><br><br>
+      <p>The Toyota Land Cruiser Prado is a full-size four-wheel-drive vehicle from Toyota's Land Cruiser line.<br> The Land Cruiser Prado is one of the smallest Land Cruiser models.<br> The Prado has been built on Toyota's J150 chassis since 2009. In other countries, the Lexus GX is the equivalent model. </p>
+      <a class="hero-btn2" onclick="storeitem('Toyota Land Cruiser Prado')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+</article>
+<!-- Footer -->
+<footer class="footerr">
+  <h4>About Us</h4>
+  <p>You can now submit an email by simply filling a description form requiring your contact details, and our team will get back to you.</p>
+  <div class="icon">
+    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by <a href="mailto:101231186@students.swinburne.edu.my">101231186@students.swinburne.edu.my</a></p>
+  <a href="acknowledgement.php" class="hero-btn2"><b>ACKNOWLEDGEMENTS</b></a>
+</footer>
+<script src="script.js"></script>
+<script src="enhancement2.js"></script>
+</body>
+</html>

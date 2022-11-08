@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>RENEASE</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body style="background-color:rgba(0, 0, 0, 0.5);">
+  <section class="header">
+    <nav>
+      <a href="index.php"><img src="images/logo.png" alt="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+       <i class="fa fa-window-close" onclick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li>
+           <div class="dropdown">
+             <button  class="dropbtn" id="vehicleavail"  style="float:right" onclick="myFunction()" >VEHICLE AVAILABLE
+               <i class="fa fa-caret-down"></i>
+             </button>
+             <div id="myDropdown" class="dropdown-content">
+             <a href="Budget.php">BUDGET</a>
+             <a href="Standard.php">STANDARD</a>
+             <a href="Luxury.php">LUXURY</a>
+             <a href="SUV.php">SUV</a>
+             </div>
+           </div> 
+         </li>
+         <li><a href="about.php">ABOUT</a></li>
+         <li><a href="enquiry.php">ENQUIRY</a></li>
+         <li>
+           <div class="dropdown">
+           <button onclick="drop()" class="dropbtn">ENHANCEMENTS
+             <i class="fa fa-caret-down"></i>
+           </button>
+             <div id="myDropdown2" class="dropdown-content">
+               <a href="enhancement.php">Enhancement 1</a>
+               <a href="enhancement2.php">Enhancement 2</a>
+             </div>
+         </div>
+         </li>
+         <li><a href="disclaimer.php">DISCLAIMER</a></li>
+       </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+    <div class="text-box">
+       <h1>LUXURY</h1>
+    </div>
+    </section>
+<!--Aboutrenrase-->
+<article>
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/eclass.png" alt="eclass">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2021 Model</p>
+      <p><i class="fa fa-money"></i> RM170/day</p>
+      <div><a href="https://www.youtube.com/watch?v=XO93x4PAI1U" class="hero-btn2">View More</a></div>
+    
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Mercedes-Benz E-Class</h1><br><br><br>
+      <p>The Mercedes-Benz E-Class is a line of executive cars produced by Mercedes-Benz in various engine and body configurations.<br>The Mercedes-Benz E-Class has been in production since 1953 and has been sold in five generations worldwide.</p>
+      <a class="hero-btn2" onclick="storeitem('Mercedes-Benz E-Class')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/bmw6.png" alt="bmw6">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2019 Model</p>
+      <p><i class="fa fa-money"></i> RM160/day</p>
+      <div><a href="https://www.youtube.com/watch?v=E60tFfljUnY" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>BMW 6 Series Gran Turismo</h1><br><br><br>
+      <p>The G32 BMW 6 Series is the successor to the BMW 5 Series Gran Turismo and is the fourth generation in the BMW Gran Turismo range of fastback mid-size luxury vehicles.<br> It was introduced in 2017. <br>On May 27, 2020, a facelifted variant was launched alongside the new 5 Series. </p>
+      <a class="hero-btn2" onclick="storeitem('BMW 6 Series Gran Turismo')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/audia8.png" alt="audia8">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2019 Model</p>
+      <p><i class="fa fa-money"></i> RM150/day</p>
+      <div><a href="https://www.youtube.com/watch?v=ya-DD1dEv38" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Audi A8</h1><br><br><br>
+      <p>The Audi A8 is a four-door, full-size, premium car manufactured and marketed by the German automaker Audi since 1994.<br>The Audi A8, which succeeded the Audi V8 and is now in its fourth generation, has been available with front- or permanent all-wheel drive and short- and long-wheelbase variants. <br>The VW Group D platform was used for the first two generations, with the MLB platform being used for the current version.</p>
+        <a class="hero-btn2" onclick="storeitem('Audi A8')"> <div>Enquiry</div></a>
+      
+    </div>
+  </div>
+
+  <div class="holdingcontainer">
+    <!--left-->
+    <div class="internalcontainerl">
+      <img class="responsive" src="images/panamera.png" alt="panamera">
+    </div>
+    <!--Middle-->
+    <div class="internalcontainerm">
+      <h3>Specifications</h3>
+      <p><i class="fa fa-cog"></i> Automatic</p>
+      <p><i class="fa fa-car"></i> 4 Doors</p>
+      <p><i class="fa fa-registered"></i> 2020 Model</p>
+      <p><i class="fa fa-money"></i> RM150/day</p>
+      <div><a href="https://www.youtube.com/watch?v=lG-2q9jj4ik" class="hero-btn2">View More</a></div>
+    </div>
+    <!--right-->
+    <div class="internalcontainerr">
+      <h1>Porsche Panamera</h1><br><br><br>
+      <p>The Porsche Panamera is a mid/full-size luxury vehicle (E-segment in Europe) produced by Porsche.<br> It is front-engined and rear-wheel-drive, with all-wheel-drive models available as well.</p>
+      <a class="hero-btn2" onclick="storeitem('Porsche Panamera')"> <div>Enquiry</div></a>
+    </div>
+  </div>
+</article>
+<!-- Footer -->
+<footer class="footerr">
+  <h4>About Us</h4>
+  <p>You can now submit an email by simply filling a description form requiring your contact details, and our team will get back to you.</p>
+  <div class="icon">
+    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by <a href="mailto:101231186@students.swinburne.edu.my">101231186@students.swinburne.edu.my</a></p>
+  <a href="acknowledgement.php" class="hero-btn2"><b>ACKNOWLEDGEMENTS</b></a>
+</footer>
+<script src="script.js"></script>
+<script src="enhancement2.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>RENEASE</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body style="background-color:rgba(0, 0, 0, 0.5);">
+  <section class="header">
+    <nav>
+         <a href="index.php"><img src="images/logo.png" alt="images/logo.png"></a>
+         <div class="nav-links" id="navLinks">
+          <i class="fa fa-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.php">HOME</a></li>
+            <li>
+              <div class="dropdown">
+                <button  class="dropbtn" id="vehicleavail"  style="float:right" onclick="myFunction()" >VEHICLE AVAILABLE
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="Budget.php">BUDGET</a>
+                <a href="Standard.php">STANDARD</a>
+                <a href="Luxury.php">LUXURY</a>
+                <a href="SUV.php">SUV</a>
+                </div>
+              </div> 
+            </li>
+            <li><a href="about.php">ABOUT</a></li>
+            <li><a href="enquiry.php">ENQUIRY</a></li>
+            <li>
+              <div class="dropdown">
+              <button onclick="drop()" class="dropbtn">ENHANCEMENTS
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div id="myDropdown2" class="dropdown-content">
+                  <a href="enhancement.php">Enhancement 1</a>
+                  <a href="enhancement2.php">Enhancement 2</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="disclaimer.php">DISCLAIMER</a></li>
+          </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+       <h1><a id="4">Find Your Adventure</a></h1>
+       <h3>
+        Best Car Rental Service
+       </h3><br>
+       <a href="disclaimer.php" class="hero-btn">DISCLAIMER</a>
+     </div>
+    </section>
+    <!--Aboutrenrase-->
+  <section class="aboutrenease">
+    <h1>Why Choose RenEase?</h1><br><br><br>
+    <h2>At RenEase, Our idea is to simplify travel for you, and we are here to make it happen 24/7 with accessible and luxury transport services at affordable rates.
+    </h2><br><br><br>
+    <div  class="row">
+      <div class="ren-col">
+        <h3><a id="1"></a>Service Portfolio</h3>
+        <p>We are known for offering a wide range of vehicle options to our clients. <br><br>
+          Whether you would like to travel with your friends or family, or perhaps you are to travel alone, RenEase has got the right vehicle to serve your commuting needs.<br><br>
+          All the vehicles we offer fully comply with our extensive quality checks and are therefore promptly available to provide you with the desired luxury and comfort in your travel.
+        </p>
+      </div>
+      <div class="ren-col">
+        <h3>Airport Transfers Kuching</h3>
+        <p>Airport transport service in Kuching on the chance you are drawing or arriving at Kuching Airport and want to go to your desired location anxiety-free and in style, then give us a chance.<br><br>
+          Air-conditioned and chilled autos are available day and night to take you around the city.<br><br>
+          We have cars ranging from Mercedes to Toyota, Honda, Proton and even luxury vehicles available for immediate hire at reasonable charges.
+        </p>
+      </div>
+      <div class="ren-col">
+        <h3>Rent A Car For Tours</h3>
+        <p>RenEase is one of the most trustworthy and renowned names in the car rental market of Malaysia.<br><br>
+          We offer premium car rental services at affordable charges to keep your travelling needs budget-friendly. <br><br>
+          This is why we have managed to get loyal customers and are opting to provide our clients with maximum customer satisfaction to convert them into a regular clients.
+          Our dedication to quality is what makes clients stick to RenEase.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--Images-->
+  <a id="2"></a><section class="bsls">
+    <h1>Types Of Vehicles</h1>
+    <div class="row">
+      <div class="bsls-col">
+       <a href="budget.php"> <img src="images/budget.png" alt="images/budget.png">
+      <div class="layer">
+        <h3>Budget</h3>
+      </div></a>
+      </div>
+      <div class="bsls-col">
+       <a href="standard.php"> <img src="images/standard.png" alt="images/standard.png">
+       <div class="layer">
+        <h3>Standard</h3>
+      </div></a>
+      </div>
+      <div class="bsls-col">
+       <a href="luxury.php"><img src="images/luxury.png" alt="images/luxury.png">
+       <div class="layer">
+        <h3>Luxury</h3>
+      </div></a>
+      </div>
+      <div class="bsls-col">
+       <a href="suv.php"> <img src="images/suv.png" alt="images/suv.png">
+       <div class="layer">
+        <h3>SUV</h3>
+      </div></a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="j3" class="aboutrenease">
+    <h1>New Year Lucky Draw</h1>
+    <div><p id="demo"></p></div>
+  </section>
+<!--Enquiry-->
+<section class="abus">
+  <h1>Book Your Ride Now</h1>
+  <a class="hero-btn2" onclick="storeitem('Null')"><div>Enquiry</div></a>
+</section>
+<section>
+  <!-- Slideshow container -->
+<div id="j1" class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+ <img src="images/bmw.png" alt="bmw" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/fiat.png" alt="fiat" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/ford.png" alt="ford" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/hyundai.png" alt="hyundai" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/jeep.png" alt="jeep" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/mazda.png" alt="mazda" style="width:100%">
+</div>
+<div class="mySlides fade">
+ <img src="images/mercedes.png" alt="mercedes" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/porsche.png" alt="porsche" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+ <img src="images/proton.png" alt="proton" style="width:100%">
+</div>
+<div class="mySlides fade">
+ <img src="images/toyota.png" alt="toyota" style="width:100%">
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+</div> 
+</div>
+</section>
+<!-- Footer -->
+<footer class="footerr">
+  <a id="3"><h4>About Us</h4></a>
+  <p>You can now submit an email by simply filling a description form requiring your contact details, and our team will get back to you.</p>
+  <div class="icon">
+    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by <a href="mailto:101231186@students.swinburne.edu.my">101231186@students.swinburne.edu.my</a></p>
+  <a href="acknowledgement.php" class="hero-btn2"><b>ACKNOWLEDGEMENTS</b></a>
+</footer>
+<script src="script.js"></script>
+<script src="enhancement2.js"></script>
+</body>
+</html>
