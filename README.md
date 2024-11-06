@@ -8,7 +8,7 @@ analysis and gesture detection.
 checks to prevent spoofing.
 - Contributed to secure and reliable attendance management, particularly for educational and professional
 environments.
-Link https://huggingface.co/brxerq/anti_spoofing
+- Link https://huggingface.co/brxerq/anti_spoofing
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -41,4 +41,4 @@ efficiency.
 uploads.
 - Contributed to retail operations by reducing stockouts and ensuring optimal product placement for enhanced
 customer satisfaction.
-Link https://huggingface.co/spaces/brxerq/ShelvesDetection
+- Link https://huggingface.co/spaces/brxerq/ShelvesDetection
