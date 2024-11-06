@@ -1,22 +1,22 @@
 Face Attendance Anti-Spoofing System
-• Developed a real-time face recognition system with integrated anti-spoofing measures for secure attendance
+- Developed a real-time face recognition system with integrated anti-spoofing measures for secure attendance
 tracking.
-• Utilized OpenCV, dlib, and MediaPipe to detect faces, analyze eye blinks, and assess liveness through texture
+- Utilized OpenCV, dlib, and MediaPipe to detect faces, analyze eye blinks, and assess liveness through texture
 analysis and gesture detection.
-• Implemented smartphone detection using YOLOv4 to ensure user focus during attendance capture.
-• Enhanced user authentication by incorporating facial landmarks, blink detection, and texture-based liveness
+- Implemented smartphone detection using YOLOv4 to ensure user focus during attendance capture.
+- Enhanced user authentication by incorporating facial landmarks, blink detection, and texture-based liveness
 checks to prevent spoofing.
-• Contributed to secure and reliable attendance management, particularly for educational and professional
+- Contributed to secure and reliable attendance management, particularly for educational and professional
 environments.
 Link https://huggingface.co/brxerq/anti_spoofing
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 RenEase
-• A comprehensive car rental website using HTML, PHP, and Java.
-• Built a user-friendly interface for customers to browse, select, and rent vehicles seamlessly.
-• Implemented backend functionality for booking management.
-• Focused on providing a reliable and efficient platform for both customers and rental service providers.
+- A comprehensive car rental website using HTML, PHP, and Java.
+- Built a user-friendly interface for customers to browse, select, and rent vehicles seamlessly.
+- Implemented backend functionality for booking management.
+- Focused on providing a reliable and efficient platform for both customers and rental service providers.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
