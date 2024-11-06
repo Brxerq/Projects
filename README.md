@@ -21,24 +21,24 @@ RenEase
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 STALES
-• Python-based stock management tool using Tkinter for the user interface.
-• Designed to efficiently monitor and manage supermarket inventory with a focus on tracking product expiration
+- Python-based stock management tool using Tkinter for the user interface.
+- Designed to efficiently monitor and manage supermarket inventory with a focus on tracking product expiration
 dates.
-• Provides an intuitive UI for easy input and retrieval of stock details, ensuring products remain fresh and
+- Provides an intuitive UI for easy input and retrieval of stock details, ensuring products remain fresh and
 minimizing waste.
-• Enhances inventory control, boosting operational efficiency in a retail environment.
+- Enhances inventory control, boosting operational efficiency in a retail environment.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Out-of-Stock Detection System
-• Created Super-Market Shelves Detection project to automate shelf monitoring using AI and computer vision.
-• Developed a Python-based solution leveraging transfer learning with SSD MobileNet V2 architecture.
-• Implemented models for detecting empty and misaligned shelf spaces, enhancing inventory management
+- Created Super-Market Shelves Detection project to automate shelf monitoring using AI and computer vision.
+- Developed a Python-based solution leveraging transfer learning with SSD MobileNet V2 architecture.
+- Implemented models for detecting empty and misaligned shelf spaces, enhancing inventory management
 efficiency.
-• Tested nine models, including Base (SSD MobileNet V2 320x320), Intermediate (SSD MobileNet V2 FPNLite
+- Tested nine models, including Base (SSD MobileNet V2 320x320), Intermediate (SSD MobileNet V2 FPNLite
 320x320), and Final (SSD MobileNet V2 FPNLite 640x640).
-• Provided evaluation scripts and integrated a Hugging Face interface for model interaction via image and video
+- Provided evaluation scripts and integrated a Hugging Face interface for model interaction via image and video
 uploads.
-• Contributed to retail operations by reducing stockouts and ensuring optimal product placement for enhanced
+- Contributed to retail operations by reducing stockouts and ensuring optimal product placement for enhanced
 customer satisfaction.
 Link https://huggingface.co/spaces/brxerq/ShelvesDetection
